@@ -1,0 +1,35 @@
+body{
+background-color:seagreen;
+}
+
+h1{
+background-color:dimgray;
+color:white;
+}
+
+#sketches{
+float:right;
+}
+
+p{
+font-size:25px;
+padding-top:10px;
+}
+
+canvas{
+border:5px solid white;
+border-radius:20px;
+margin-top:50px;
+animation-name:boxxy;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}
+
+@keyframes boxxy{
+from{
+box-shadow:1px 1px 38px olive
+}
+to{
+box-shadow: 1px 1px 38px orange;
+}
+}
